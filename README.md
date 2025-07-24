@@ -16,7 +16,7 @@ A comprehensive Grafana dashboard for monitoring Starknet validator attestation 
 - **Prometheus** with access to validator metrics
 - **Docker & Docker Compose** (for example deployment)
 
-> ⚠️ **Important**: Versions below Starknet 0.4.0 may not support all metrics endpoints required by this dashboard.
+> ⚠️ **Important**: Versions Attestation Service below 0.4.0 may not support all metrics endpoints required by this dashboard.
 
 ## 🚀 Quick Start
 
