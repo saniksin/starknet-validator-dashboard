@@ -113,6 +113,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Built for **Pathfinder Attestation Service** validators
-- Compatible with **Starknet Version 0.4.0+**
+- Built for **Eqlabs Attestation Service** validators
+- Compatible with **Eqlabs Attestation Service Version 0.4.0+**
 - Community-driven monitoring solution 
