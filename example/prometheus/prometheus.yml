@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 15s
+
+rule_files:
+  - rules.yml
+
+scrape_configs:
+  - job_name: 'starknet-attestation'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['host.docker.internal:9090']  # Replace with your validator metrics endpoint
+    scrape_interval: 5s
+
+  - job_name: 'node'
+    static_configs:
+      - targets: ['host.docker.internal:9100'] 

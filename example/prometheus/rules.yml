@@ -1,0 +1,6 @@
+groups:
+  - name: attestation-time
+    interval: 15s
+    rules:
+      - record: validator_attestation_last_attestation_dummy
+        expr: timestamp(validator_attestation_last_attestation_timestamp_seconds) 
